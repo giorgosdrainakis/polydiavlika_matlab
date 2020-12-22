@@ -1,9 +1,9 @@
 % param setting
 clc
 clear
-input_table=readtable('traffic_dataset.csv');
+input_table=readtable('traffic_flow_dataset.csv');
 t_begin=0;
-t_end=0.1;
+t_end=10;
 timerange=linspace(t_begin,t_end,1000);
 
 % constants
