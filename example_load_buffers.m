@@ -11,7 +11,7 @@ nodes=8;
 input_table=readtable('traffic_dataset.csv');
 traffic_dset = table2cell(input_table);
 t_begin=0;
-t_end=0.1;
+t_end=1;
 
 % sort traffic by time of arrival
 traffic_dset_sorted = sortrows(traffic_dset,2);
